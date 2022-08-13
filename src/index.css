@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400;700&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,83 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header {
+  text-align: center;
+  user-select: none;
+  margin-top: 15px;
+}
+
+.title {
+  font-size: 48px;
+  font-variant: small-caps;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 14px;
+}
+
+.keyboard {
+  margin: auto;
+  width: 75%;
+  padding: 30px;
+}
+
+.selector {
+  height: 5vh;
+  line-height: 5vh;
+  text-align: center;
+  padding-right: 25px;
+}
+
+.keyboard {
+  background-color: #ecf0f1;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+
+.editor-bg {
+  padding: 20px;
+  height: 50vh;
+  background-color: #ecf0f1;
+}
+
+.editor {}
+
+textarea {
+  font-size: 16px;
+  font-family: 'Noto Sans Arabic', sans-serif;
+  width: 100%;
+  direction: rtl;
+  height: 49vh;
+  resize: none;
+}
+
+.clear {
+  font-variant: small-caps;
+  float: right;
+}
+
+.clear:hover {
+  border-bottom-style: solid;
+}
+
+.clear-icon {
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
+
+.logo {
+  position: relative;
+  height: 75px;
+  top: 16px;
+  right: 10px;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
