@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/mparchment/lugha/static/css/main.ffafa4eb.css",
-    "main.js": "/mparchment/lugha/static/js/main.74cd496b.js",
-    "index.html": "/mparchment/lugha/index.html",
-    "main.ffafa4eb.css.map": "/mparchment/lugha/static/css/main.ffafa4eb.css.map",
-    "main.74cd496b.js.map": "/mparchment/lugha/static/js/main.74cd496b.js.map"
+    "main.css": "/lugha/static/css/main.ffafa4eb.css",
+    "main.js": "/lugha/static/js/main.74cd496b.js",
+    "index.html": "/lugha/index.html",
+    "main.ffafa4eb.css.map": "/lugha/static/css/main.ffafa4eb.css.map",
+    "main.74cd496b.js.map": "/lugha/static/js/main.74cd496b.js.map"
   },
   "entrypoints": [
     "static/css/main.ffafa4eb.css",
