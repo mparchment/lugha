@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/lugha/static/css/main.ffafa4eb.css",
-    "main.js": "/lugha/static/js/main.74cd496b.js",
+    "main.js": "/lugha/static/js/main.b1b162f3.js",
     "index.html": "/lugha/index.html",
     "main.ffafa4eb.css.map": "/lugha/static/css/main.ffafa4eb.css.map",
-    "main.74cd496b.js.map": "/lugha/static/js/main.74cd496b.js.map"
+    "main.b1b162f3.js.map": "/lugha/static/js/main.b1b162f3.js.map"
   },
   "entrypoints": [
     "static/css/main.ffafa4eb.css",
-    "static/js/main.74cd496b.js"
+    "static/js/main.b1b162f3.js"
   ]
 }
