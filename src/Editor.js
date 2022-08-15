@@ -15,7 +15,7 @@ function Editor() {
     }, [wordArr])
 
     function getTransliteration() {
-        return fetch(`https://cors-anywhere.herokuapp.com/https://transliterate.qcri.org/en2ar/${currWord}`)
+        return fetch(`https://thingproxy.freeboard.io/fetch/https://transliterate.qcri.org/en2ar/${currWord}`)
             .then((response) => response.json())
             .then((responseJson) => {
                 return responseJson.results;
