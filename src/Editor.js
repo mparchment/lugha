@@ -1,7 +1,7 @@
 import {useEffect, useRef, useState} from 'react'
 import {IconButton} from "@mui/material";
 import ClearIcon from "@mui/icons-material/Clear";
-
+import ld from 'levantinetransliterator'
 
 function Editor() {
 
@@ -14,6 +14,7 @@ function Editor() {
         ref.current.value = wordArr.join('')
     }, [wordArr])
 
+    /*
     function getTransliteration() {
         return fetch(`https://thingproxy.freeboard.io/fetch/https://transliterate.qcri.org/en2ar/${currWord}`)
             .then((response) => response.json())
@@ -24,13 +25,11 @@ function Editor() {
                 console.error(error)
             })
     }
+    */
 
     const handleChange = (e) => {
         if (e.key === ' ' && ref.current.value.split(' ').at(-1) !== ' ') {
-            getTransliteration()
-                .then((word) => {
-                    setWordArr([...wordArr, word, ' '])
-                })
+            setWordArr([...wordArr, ld.transliterate(currWord)[0], ' '])
         }
 
         setCurrWord(ref.current.value.split(' ').at(-1))
